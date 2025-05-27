@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>بهية - Bahyia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      /* Customizing Tailwind's default colors if needed, or defining a custom primary color */
+      :root {
+        --color-primary: #b3c2a1;
+      }
+      .bg-primary {
+        background-color: var(--color-primary);
+      }
+      .text-primary {
+        color: var(--color-primary);
+      }
+      .border-primary {
+        border-color: var(--color-primary);
+      }
+      body {
+        font-family: "Inter", sans-serif; /* Consider an Arabic-friendly font for better rendering */
+        background-color: #f8f8f8; /* Light background for contrast */
+      }
+      .social-icon {
+        transition: transform 0.2s ease-in-out;
+      }
+      .social-icon:hover {
+        transform: translateY(-5px);
+      }
+    </style>
+  </head>
+  <body class="flex flex-col min-h-screen text-gray-800">
+    <header class="bg-primary text-white py-6 shadow-md">
+      <div class="container mx-auto px-4 text-center">
+        <h1
+          class="text-5xl md:text-6xl font-bold rounded-lg p-4 inline-block tracking-wide"
+        >
+          بهية - Bahyia
+        </h1>
+        <p class="text-xl md:text-2xl mt-2 font-light">وجهتك للجمال</p>
+      </div>
+    </header>
+
+    <main
+      class="flex-grow container mx-auto px-4 py-12 flex items-center justify-center"
+    >
+      <div
+        class="text-center max-w-2xl bg-white p-8 md:p-12 rounded-xl shadow-lg"
+      >
+        <h2
+          class="text-4xl md:text-5xl font-semibold text-gray-900 mb-6 leading-tight"
+        >
+          أهلاً بك في بهية!
+        </h2>
+        <p class="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
+          اكتشفي عالمًا من الأناقة والجمال الطبيعي مع مجموعتنا المنسقة بعناية.
+          نحن ملتزمون بتقديم أجود المنتجات التي تعزز إشراقتك.
+        </p>
+        <a
+          href="https://bahyia.shop"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block mt-8"
+        >
+          <img
+            src="https://i.postimg.cc/TwQmM995/8a1f7fa8-5072-4bc3-9898-e4bcaf921d17.jpg"
+            alt="Bahyia Logo"
+            class="max-w-xs mx-auto rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105"
+            onerror="this.onerror=null;this.src='https://placehold.co/300x300/b3c2a1/ffffff?text=Bahyia+Logo';"
+          />
+        </a>
+      </div>
+    </main>
+
+    <section class="bg-gray-100 py-10">
+      <div class="container mx-auto px-4 text-center">
+        <h3 class="text-3xl md:text-4xl font-semibold text-gray-800 mb-8">
+          تواصل معنا
+        </h3>
+        <div class="flex flex-wrap justify-center gap-8">
+          <a
+            href="https://www.facebook.com/bahyiabeauty"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-icon text-gray-600 hover:text-blue-600 flex flex-col items-center"
+          >
+            <i class="fab fa-facebook-f text-5xl md:text-6xl mb-2"></i>
+            <span class="text-lg font-medium">فيسبوك</span>
+          </a>
+          <a
+            href="https://www.instagram.com/nudhraps/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-icon text-gray-600 hover:text-pink-600 flex flex-col items-center"
+          >
+            <i class="fab fa-instagram text-5xl md:text-6xl mb-2"></i>
+            <span class="text-lg font-medium">إنستغرام</span>
+          </a>
+          <a
+            href="https://wa.me/00970594988471"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-icon text-gray-600 hover:text-green-500 flex flex-col items-center"
+          >
+            <i class="fab fa-whatsapp text-5xl md:text-6xl mb-2"></i>
+            <span class="text-lg font-medium">واتساب</span>
+          </a>
+          <a
+            href="https://t.me/00970594988471"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-icon text-gray-600 hover:text-blue-400 flex flex-col items-center"
+          >
+            <i class="fab fa-telegram-plane text-5xl md:text-6xl mb-2"></i>
+            <span class="text-lg font-medium">تليجرام</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-6 mt-auto">
+      <div class="container mx-auto px-4 text-center">
+        <p class="text-lg mb-2">
+          &copy; 2025 بهية - Bahyia. جميع الحقوق محفوظة.
+        </p>
+        <p class="text-md">
+          النطاق:
+          <a
+            href="https://bahyia.shop"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-primary hover:underline"
+            >bahyia.shop</a
+          >
+        </p>
+        <p class="text-md">
+          للتواصل:
+          <a href="tel:+00970594988471" class="text-primary hover:underline"
+            >00970594988471</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
